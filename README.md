@@ -50,7 +50,7 @@
    - Запустите PGAdmin сервер
    - Создайте пустую бд
    - В файле settings.py найдите следующие настройки и вставте свои данные бд
-   
+~~~
    DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
@@ -61,7 +61,7 @@
         'HOST': 'localhost',
     }
 }
-
+~~~
 
 4. Миграции
    - python manage.py makemigrations
